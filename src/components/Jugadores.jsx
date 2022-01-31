@@ -1,13 +1,14 @@
+import { stat } from "fs";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { obtenerJugadoresAction } from "../actions/jugadoresActions";
 //Actions REDUX
 import { agregarJugadorActionTitular } from "../actions/jugadoresActions";
 
-const jugadores = [
-  { id: 17, nombre: "Jugador1", foto: "Jugador1" },
-  { id: 20, nombre: "Jugador2", foto: "Jugador2" },
-];
+// const jugadores = [
+//   { id: 17, nombre: "Jugador1", foto: "Jugador1" },
+//   { id: 20, nombre: "Jugador2", foto: "Jugador2" },
+// ];
 
 export default function Jugadores() {
   const dispatch = useDispatch();
@@ -19,6 +20,9 @@ export default function Jugadores() {
   }, []);
 
   //Acceder state del store
+  const jugadores = useSelector((state) => state.jugadores);
+  console.log(jugadores);
+
   const cargando = useSelector((state) => state.jugadores.loading);
   const error = useSelector((state) => state.jugadores.error);
 
