@@ -89,6 +89,18 @@
       "nombre": "R. Bentancur",
       "foto": "https://apiv2.allsportsapi.com/logo/players/55233_r-bentancur.jpg",
       "posicion": "Centrocampista"
+    },
+    {
+      "id": 27,
+      "nombre": "M. Locatelli",
+      "foto": "https://apiv2.allsportsapi.com/logo/players/42183_m-locatelli.jpg",
+      "posicion": "Centrocampista"
+    },
+    {
+      "id": 25,
+      "nombre": "A. Rabiot",
+      "foto": "https://apiv2.allsportsapi.com/logo/players/25468_a-rabiot.jpg",
+      "posicion": "Centrocampista"
     }
   ]
 }
