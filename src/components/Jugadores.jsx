@@ -1,4 +1,3 @@
-import { stat } from "fs";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { obtenerJugadoresAction } from "../actions/jugadoresActions";
@@ -20,7 +19,7 @@ export default function Jugadores() {
   }, []);
 
   //Acceder state del store
-  const jugadores = useSelector((state) => state.jugadores);
+  const jugadores = useSelector((state) => state.jugadores.jugadores);
   console.log(jugadores);
 
   const cargando = useSelector((state) => state.jugadores.loading);
@@ -38,19 +37,23 @@ export default function Jugadores() {
     <section>
       <h2>Jugadores</h2>
       <div className="contenedor-jugadores">
-        {jugadores.map((jugador) => (
-          <article key={jugador.id} className="jugador">
-            <img src={jugador.foto} alt={jugador.nombre} />
-            <h3>{jugador.nombre}</h3>
+        {jugadores.length === 0 ? (
+          <p>No hay ningún Jugador</p>
+        ) : (
+          jugadores.map((jugador) => (
+            <article key={jugador.id} className="jugador">
+              <img src={jugador.foto} alt={jugador.nombre} />
+              <h3>{jugador.nombre}</h3>
 
-            <div>
-              <button onClick={() => agregarJugadorTitular(jugador)}>
-                Titular
-              </button>
-              <button>Suplente</button>
-            </div>
-          </article>
-        ))}
+              <div>
+                <button onClick={() => agregarJugadorTitular(jugador)}>
+                  Titular
+                </button>
+                <button>Suplente</button>
+              </div>
+            </article>
+          ))
+        )}
       </div>
       {cargando ? <p>Cargando...</p> : null}
 
