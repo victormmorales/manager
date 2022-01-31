@@ -4,61 +4,73 @@
       "id": 1,
       "nombre": "W. Szczęsny",
       "foto": "https://apiv2.allsportsapi.com/logo/players/10227_w-szczsny.jpg",
-      "posición": "Portero"
+      "posicion": "Portero"
     },
     {
       "id": 23,
       "nombre": "C. Pinsoglio",
       "foto": "https://apiv2.allsportsapi.com/logo/players/124198_c-pinsoglio.jpg",
-      "posición": "Portero"
+      "posicion": "Portero"
     },
     {
       "id": 35,
       "nombre": "F. Israel",
       "foto": "https://apiv2.allsportsapi.com/logo/players/79274_f-israel.jpg",
-      "posición": "Portero"
+      "posicion": "Portero"
     },
     {
       "id": 2,
       "nombre": "M. De Sciglio",
       "foto": "https://apiv2.allsportsapi.com/logo/players/9637_m-de-sciglio.jpg",
-      "posición": "Defensa"
+      "posicion": "Defensa"
     },
     {
       "id": 3,
       "nombre": "G. Chiellini",
       "foto": "https://apiv2.allsportsapi.com/logo/players/13315_g-chiellini.jpg",
-      "posición": "Defensa"
+      "posicion": "Defensa"
     },
     {
       "id": 4,
       "nombre": "M. de Ligt",
       "foto": "https://apiv2.allsportsapi.com/logo/players/56450_m-de-ligt.jpg",
-      "posición": "Defensa"
+      "posicion": "Defensa"
     },
     {
       "id": 6,
       "nombre": "Danilo",
       "foto": "https://apiv2.allsportsapi.com/logo/players/124190_danilo.jpg",
-      "posición": "Defensa"
+      "posicion": "Defensa"
     },
     {
       "id": 12,
       "nombre": "Alex Sandro",
       "foto": "https://apiv2.allsportsapi.com/logo/players/124191_alex-sandro.jpg",
-      "posición": "Defensa"
+      "posicion": "Defensa"
     },
     {
       "id": 17,
       "nombre": "L. Pellegrini",
       "foto": "https://apiv2.allsportsapi.com/logo/players/61961_l-pellegrini.jpg",
-      "posición": "Defensa"
+      "posicion": "Defensa"
     },
     {
       "id": 19,
       "nombre": "L. Bonucci",
       "foto": "https://apiv2.allsportsapi.com/logo/players/55775_l-bonucci.jpg",
-      "posición": "Defensa"
+      "posicion": "Defensa"
+    },
+    {
+      "id": 22,
+      "nombre": "F. Chiesa",
+      "foto": "https://apiv2.allsportsapi.com/logo/players/72210_f-chiesa.jpg",
+      "posicion": "Delantero"
+    },
+    {
+      "id": 20,
+      "nombre": "F. Bernardeschi",
+      "foto": "https://apiv2.allsportsapi.com/logo/players/32742_f-bernardeschi.jpg",
+      "posicion": "Delantero"
     }
   ]
 }
