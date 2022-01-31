@@ -71,6 +71,12 @@
       "nombre": "F. Bernardeschi",
       "foto": "https://apiv2.allsportsapi.com/logo/players/32742_f-bernardeschi.jpg",
       "posicion": "Delantero"
+    },
+    {
+      "id": 10,
+      "nombre": "P. Dybala",
+      "foto": "https://apiv2.allsportsapi.com/logo/players/17903_p-dybala.jpg",
+      "posicion": "Delantero"
     }
   ]
 }
