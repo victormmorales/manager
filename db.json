@@ -77,6 +77,18 @@
       "nombre": "P. Dybala",
       "foto": "https://apiv2.allsportsapi.com/logo/players/17903_p-dybala.jpg",
       "posicion": "Delantero"
+    },
+    {
+      "id": 9,
+      "nombre": "Morata",
+      "foto": "https://apiv2.allsportsapi.com/logo/players/478_morata.jpg",
+      "posicion": "Delantero"
+    },
+    {
+      "id": 30,
+      "nombre": "R. Bentancur",
+      "foto": "https://apiv2.allsportsapi.com/logo/players/55233_r-bentancur.jpg",
+      "posicion": "Centrocampista"
     }
   ]
 }

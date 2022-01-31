@@ -43,7 +43,9 @@ export default function Jugadores() {
           jugadores.map((jugador) => (
             <article key={jugador.id} className="jugador">
               <img src={jugador.foto} alt={jugador.nombre} />
-              <h3>{jugador.nombre}</h3>
+              <h3>
+                {jugador.id}- {jugador.nombre}
+              </h3>
 
               <div>
                 <button onClick={() => agregarJugadorTitular(jugador)}>
