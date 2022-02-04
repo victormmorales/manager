@@ -28,7 +28,7 @@ export default function (state = initalState, action) {
         ...state,
         loading: false,
         titulares: [...state.titulares, action.payload],
-        jugadores: state.jugadores.filter((j) => j.id !== action.payload.id),
+        jugadores: state.jugadores.filter((j) => j.id !== action.jugador.id),
       };
     case AGREGAR_JUGADOR_ERROR:
     case DESCARGA_JUGADORES_ERROR:

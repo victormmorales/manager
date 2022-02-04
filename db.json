@@ -7,12 +7,6 @@
       "posicion": "Portero"
     },
     {
-      "id": 23,
-      "nombre": "C. Pinsoglio",
-      "foto": "https://apiv2.allsportsapi.com/logo/players/124198_c-pinsoglio.jpg",
-      "posicion": "Portero"
-    },
-    {
       "id": 35,
       "nombre": "F. Israel",
       "foto": "https://apiv2.allsportsapi.com/logo/players/79274_f-israel.jpg",
@@ -37,28 +31,28 @@
       "posicion": "Defensa"
     },
     {
-      "id": 6,
-      "nombre": "Danilo",
-      "foto": "https://apiv2.allsportsapi.com/logo/players/124190_danilo.jpg",
-      "posicion": "Defensa"
-    },
-    {
-      "id": 12,
-      "nombre": "Alex Sandro",
-      "foto": "https://apiv2.allsportsapi.com/logo/players/124191_alex-sandro.jpg",
-      "posicion": "Defensa"
-    },
-    {
-      "id": 17,
-      "nombre": "L. Pellegrini",
-      "foto": "https://apiv2.allsportsapi.com/logo/players/61961_l-pellegrini.jpg",
-      "posicion": "Defensa"
-    },
-    {
       "id": 19,
       "nombre": "L. Bonucci",
       "foto": "https://apiv2.allsportsapi.com/logo/players/55775_l-bonucci.jpg",
       "posicion": "Defensa"
+    },
+    {
+      "id": 30,
+      "nombre": "R. Bentancur",
+      "foto": "https://apiv2.allsportsapi.com/logo/players/55233_r-bentancur.jpg",
+      "posicion": "Centrocampista"
+    },
+    {
+      "id": 27,
+      "nombre": "M. Locatelli",
+      "foto": "https://apiv2.allsportsapi.com/logo/players/42183_m-locatelli.jpg",
+      "posicion": "Centrocampista"
+    },
+    {
+      "id": 25,
+      "nombre": "A. Rabiot",
+      "foto": "https://apiv2.allsportsapi.com/logo/players/25468_a-rabiot.jpg",
+      "posicion": "Centrocampista"
     },
     {
       "id": 22,
@@ -83,24 +77,6 @@
       "nombre": "Morata",
       "foto": "https://apiv2.allsportsapi.com/logo/players/478_morata.jpg",
       "posicion": "Delantero"
-    },
-    {
-      "id": 30,
-      "nombre": "R. Bentancur",
-      "foto": "https://apiv2.allsportsapi.com/logo/players/55233_r-bentancur.jpg",
-      "posicion": "Centrocampista"
-    },
-    {
-      "id": 27,
-      "nombre": "M. Locatelli",
-      "foto": "https://apiv2.allsportsapi.com/logo/players/42183_m-locatelli.jpg",
-      "posicion": "Centrocampista"
-    },
-    {
-      "id": 25,
-      "nombre": "A. Rabiot",
-      "foto": "https://apiv2.allsportsapi.com/logo/players/25468_a-rabiot.jpg",
-      "posicion": "Centrocampista"
     }
   ]
 }
