@@ -77,6 +77,12 @@
       "nombre": "Morata",
       "foto": "https://apiv2.allsportsapi.com/logo/players/478_morata.jpg",
       "posicion": "Delantero"
+    },
+    {
+      "id": 7,
+      "nombre": "Militroncho",
+      "foto": "https://apiv2.allsportsapi.com/logo/players/478_morata.jpg",
+      "posicion": "Delantero"
     }
   ]
 }
